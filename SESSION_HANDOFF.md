@@ -2,9 +2,19 @@
 
 ## Current Status
 
-As of 2026-05-17, the repository contains planning and documentation for an MIT App Inventor medicine image classification helper app.
+As of 2026-05-17, the repository contains planning and documentation for an MIT App Inventor medicine image classification helper app and a document-based App Inventor development automation helper app.
 
-The local branch is expected to be `main` and synced with `origin/main` before new work begins.
+Current working branch:
+
+```text
+codex/add-automation-helper-ui-design
+```
+
+Branch base:
+
+```text
+main at 962f82c
+```
 
 ## Repository
 
@@ -34,6 +44,7 @@ main
 | 8 | `drug_ai_webapi_design_08.md` | Web API fallback design |
 | 9 | `drug_ai_presentation_report_outline_09.md` | Presentation and final report outline |
 | 10 | `drug_ai_automation_app_plan_10.md` | Automation helper app development plan |
+| 11 | `drug_ai_automation_helper_ui_design_11.md` | Automation helper app UI and data design |
 
 ## Image Assets
 
@@ -54,6 +65,7 @@ Notable diagrams:
 - `webapi_architecture_flow_01.svg`
 - `presentation_report_flow_01.svg`
 - `automation_helper_app_flow_01.svg`
+- `automation_helper_ui_layout_01.svg`
 
 ## Latest User Direction
 
@@ -71,23 +83,23 @@ Do not start with full .aia generation.
 Recommended next work:
 
 ```text
-Create the automation helper app UI/data design document, or begin a simple React/Vite implementation.
-```
-
-Suggested next document:
-
-```text
-drug_ai_automation_helper_ui_design_11.md
+Begin a simple React/Vite implementation of the document-based automation helper app.
 ```
 
 Suggested implementation path:
 
 ```text
 1. Create a web app scaffold.
-2. Add a document list.
-3. Add dashboard cards for the development stages.
-4. Add static extracted data from the existing docs.
+2. Add static project data from documents 1-11.
+3. Add a document list.
+4. Add dashboard cards for the development stages.
 5. Add component/block/checklist views.
+```
+
+Latest completed work:
+
+```text
+Created drug_ai_automation_helper_ui_design_11.md and images/automation_helper_ui_layout_01.svg.
 ```
 
 ## Important Constraints
@@ -121,5 +133,5 @@ gh pr merge ...
 ## Open Questions
 
 - Should the automation helper app be a local static web app or a full app with file editing?
-- Should Markdown parsing happen live from files, or should the first version use a curated JSON data file?
+- Should Markdown parsing happen live from files, or should the first version use a curated JSON data file? Current document 11 recommends curated static data for the first version.
 - Should `.aia` generation be researched immediately after the helper app MVP, or postponed until the guide app proves useful?
