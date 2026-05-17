@@ -7,13 +7,13 @@ As of 2026-05-17, the repository contains planning and documentation for an MIT 
 Current working branch:
 
 ```text
-codex/add-automation-helper-ui-design
+codex/add-automation-helper-mvp
 ```
 
 Branch base:
 
 ```text
-main at 962f82c
+main at 14ba233
 ```
 
 ## Repository
@@ -83,7 +83,7 @@ Do not start with full .aia generation.
 Recommended next work:
 
 ```text
-Begin a simple React/Vite implementation of the document-based automation helper app.
+Review and merge the React/Vite automation helper MVP, then continue with richer data extraction or checklist persistence.
 ```
 
 Suggested implementation path:
@@ -99,7 +99,7 @@ Suggested implementation path:
 Latest completed work:
 
 ```text
-Created drug_ai_automation_helper_ui_design_11.md and images/automation_helper_ui_layout_01.svg.
+Created automation-helper React/Vite MVP with document list, development stage dashboard, detail panel, component list, block guide, checklist view, and fixed safety notice.
 ```
 
 ## Important Constraints
