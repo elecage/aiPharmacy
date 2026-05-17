@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <text x="600" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">약 종류 구분 앱 개발 체크리스트 흐름</text>
+  <text x="600" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">기획 → 훈련 → 앱 제작 → 테스트 → 문서화 → 저장소 관리</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="55" y="170" width="160" height="110" rx="12" fill="#dbeafe" stroke="#60a5fa" stroke-width="3"/>
+  <text x="135" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">1. 기획</text>
+  <text x="135" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">기능 범위</text>
+  <text x="135" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">안전 문구</text>
+
+  <rect x="255" y="170" width="160" height="110" rx="12" fill="#ede9fe" stroke="#a78bfa" stroke-width="3"/>
+  <text x="335" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#4c1d95">2. 훈련</text>
+  <text x="335" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#5b21b6">이미지 수집</text>
+  <text x="335" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#5b21b6">모델 테스트</text>
+
+  <rect x="455" y="170" width="160" height="110" rx="12" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="3"/>
+  <text x="535" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#134e4a">3. 앱 제작</text>
+  <text x="535" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f766e">화면 구성</text>
+  <text x="535" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f766e">블록 작성</text>
+
+  <rect x="655" y="170" width="160" height="110" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+  <text x="735" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#78350f">4. 테스트</text>
+  <text x="735" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#92400e">Android</text>
+  <text x="735" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#92400e">iPhone</text>
+
+  <rect x="855" y="170" width="160" height="110" rx="12" fill="#fff7ed" stroke="#fb923c" stroke-width="3"/>
+  <text x="935" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#7c2d12">5. 문서화</text>
+  <text x="935" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9a3412">화면 캡처</text>
+  <text x="935" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9a3412">결과표</text>
+
+  <rect x="430" y="430" width="340" height="120" rx="12" fill="#f9fafb" stroke="#9ca3af" stroke-width="3"/>
+  <text x="600" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">6. GitHub 저장소 관리</text>
+  <text x="600" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">문서 추가 → 커밋 → 푸시 → PR → 머지</text>
+
+  <line x1="215" y1="225" x2="255" y2="225" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="415" y1="225" x2="455" y2="225" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="615" y1="225" x2="655" y2="225" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="815" y1="225" x2="855" y2="225" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M935 280 C935 390 700 385 650 430" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M550 430 C490 380 135 405 135 280" fill="none" stroke="#9ca3af" stroke-width="3" stroke-dasharray="10 8" marker-end="url(#arrow)"/>
+
+  <text x="600" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">반복 개선: 테스트 결과를 바탕으로 AI 데이터, 블록, 문서를 다시 보완한다.</text>
+</svg>
