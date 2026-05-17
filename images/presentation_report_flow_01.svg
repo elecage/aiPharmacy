@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <text x="600" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">발표 자료 및 최종 보고서 구성 흐름</text>
+  <text x="600" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">개발 문서 → 핵심 메시지 → 발표 슬라이드 → 최종 보고서 → 시연</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="60" y="170" width="190" height="120" rx="12" fill="#dbeafe" stroke="#60a5fa" stroke-width="3"/>
+  <text x="155" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">1. 개발 문서</text>
+  <text x="155" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">1번부터 8번</text>
+  <text x="155" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">근거 자료</text>
+
+  <rect x="310" y="170" width="190" height="120" rx="12" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="3"/>
+  <text x="405" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#134e4a">2. 핵심 메시지</text>
+  <text x="405" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f766e">AI 참고용</text>
+  <text x="405" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f766e">iPhone 대안</text>
+
+  <rect x="560" y="170" width="190" height="120" rx="12" fill="#ede9fe" stroke="#a78bfa" stroke-width="3"/>
+  <text x="655" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#4c1d95">3. 발표 자료</text>
+  <text x="655" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#5b21b6">슬라이드</text>
+  <text x="655" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#5b21b6">시연 흐름</text>
+
+  <rect x="810" y="170" width="190" height="120" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+  <text x="905" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#78350f">4. 최종 보고서</text>
+  <text x="905" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#92400e">목차</text>
+  <text x="905" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#92400e">결과 정리</text>
+
+  <line x1="250" y1="230" x2="310" y2="230" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="500" y1="230" x2="560" y2="230" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="750" y1="230" x2="810" y2="230" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="240" y="435" width="260" height="120" rx="12" fill="#fff7ed" stroke="#fb923c" stroke-width="3"/>
+  <text x="370" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#7c2d12">시연</text>
+  <text x="370" y="518" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#9a3412">사진 입력 → AI 분석</text>
+
+  <rect x="700" y="435" width="260" height="120" rx="12" fill="#fee2e2" stroke="#f87171" stroke-width="3"/>
+  <text x="830" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#7f1d1d">질의응답</text>
+  <text x="830" y="518" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#991b1b">정확도, 안전성, iPhone</text>
+
+  <path d="M655 290 C650 375 430 375 380 435" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M905 290 C930 375 850 375 830 435" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="600" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">발표에서는 기능보다 안전성과 한계, iPhone 대응 전략을 명확히 설명한다.</text>
+</svg>
