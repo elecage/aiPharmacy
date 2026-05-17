@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780">
+  <rect width="1200" height="780" fill="#ffffff"/>
+  <text x="600" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">앱인벤터 블록 흐름도</text>
+  <text x="600" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">사진 입력 → AI 분석 → 신뢰도 기준 처리 → 한국어 결과 표시</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="70" y="160" width="220" height="100" rx="12" fill="#dbeafe" stroke="#60a5fa" stroke-width="3"/>
+  <text x="180" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">사진촬영버튼.Click</text>
+  <text x="180" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e40af">카메라1.TakePicture</text>
+
+  <rect x="70" y="340" width="220" height="100" rx="12" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="3"/>
+  <text x="180" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#134e4a">사진선택버튼.Click</text>
+  <text x="180" y="412" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0f766e">이미지선택기1.Open</text>
+
+  <rect x="370" y="250" width="220" height="120" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="3"/>
+  <text x="480" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">사진 저장</text>
+  <text x="480" y="324" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#374151">전역 선택한사진</text>
+  <text x="480" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#374151">사진이미지.Picture</text>
+
+  <rect x="670" y="250" width="220" height="120" rx="12" fill="#ede9fe" stroke="#a78bfa" stroke-width="3"/>
+  <text x="780" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#4c1d95">분석하기버튼.Click</text>
+  <text x="780" y="324" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#5b21b6">사진 여부 확인</text>
+  <text x="780" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#5b21b6">AI 분석 실행</text>
+
+  <rect x="955" y="250" width="190" height="120" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+  <text x="1050" y="288" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#78350f">결과 수신</text>
+  <text x="1050" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#92400e">예상약이름</text>
+  <text x="1050" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#92400e">신뢰도</text>
+
+  <rect x="370" y="520" width="220" height="120" rx="12" fill="#ecfdf5" stroke="#34d399" stroke-width="3"/>
+  <text x="480" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#064e3b">결과표시하기</text>
+  <text x="480" y="594" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#047857">80% 이상: 예상 약</text>
+  <text x="480" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#047857">50% 미만: 판별 불가</text>
+
+  <rect x="670" y="520" width="220" height="120" rx="12" fill="#fff7ed" stroke="#fb923c" stroke-width="3"/>
+  <text x="780" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#7c2d12">한국어 표시</text>
+  <text x="780" y="594" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#9a3412">결과라벨.Text</text>
+  <text x="780" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#9a3412">신뢰도라벨.Text</text>
+
+  <line x1="290" y1="210" x2="370" y2="290" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="290" y1="390" x2="370" y2="330" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="590" y1="310" x2="670" y2="310" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="890" y1="310" x2="955" y2="310" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M1050 370 C1050 485 590 455 515 520" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="590" y1="580" x2="670" y2="580" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="80" y="610" width="210" height="70" rx="10" fill="#fee2e2" stroke="#f87171" stroke-width="3"/>
+  <text x="185" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#7f1d1d">오류 처리</text>
+  <text x="185" y="666" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#991b1b">사진 없음 / 분석 실패</text>
+  <path d="M730 370 C650 470 280 485 205 610" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow)"/>
+
+  <text x="600" y="735" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">[그림 2] 앱인벤터 블록 흐름도</text>
+</svg>
